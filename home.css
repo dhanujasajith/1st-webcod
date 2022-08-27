@@ -1,0 +1,409 @@
+body{
+    margin:0 9%;
+}
+nav p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+hr{
+    background-color: black;
+    height: 1px;
+}
+/*.................................................
+.................(navi bar)..................................
+...................................................
+.....................................................*/
+.dropbtn{
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+   }
+   .dropdown{
+    position: relative;
+    display: inline-block;
+   }
+   .drop-content{
+    left: -50px;
+    display:none;
+    position: absolute;
+    background-color:rgb(199, 199, 199) ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   }
+   .drop-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+   }
+   .drop-content a:hover{
+        background-color: rgb(255, 255, 255);
+   }
+   .dropdown:hover .drop-content{
+        display: block;
+   }
+   .dropdown:hover .dropbtn{
+    background-color: rgba(0, 0, 0, 0.404);
+   }
+      
+.navibar ul{
+
+    text-align: center;
+    list-style-type: none;
+}
+.navibar ul li{
+    display: inline;
+    margin: 20px 20px;
+    transform: 0.5s;
+
+}
+.navibar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+    padding: 9px 18px;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navibar ul li :hover{
+    background-color: rgb(199, 199, 199);
+    color: black;
+}
+
+/*.................................................
+.................( abut me)..................................
+...................................................
+.....................................................*/
+
+
+#abut{
+margin-top:20px;
+width: 100%;
+height:400px;
+background:url(img/poto2.jpg);
+background-color: rgba(241, 239, 239, 0.622);
+background-size:40% auto ;
+background-position:right top;
+background-repeat: no-repeat;
+background-attachment:scroll;
+overflow: hidden;
+padding-top: 50px;
+
+}
+#abut h1{
+    text-align:left;
+    margin-left: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
+#abut p{
+    text-align:left;
+    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+    margin-left: 50px;
+
+}
+#abut a{
+   
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px 12px;
+}
+
+
+/*.................................................
+.................( skils)..................................
+...................................................
+.....................................................*/
+
+#skils{
+margin-top:2px;
+background-color: rgba(50, 49, 49, 0.649);
+padding: 20px 50px;
+}
+#skils h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+#skils p{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+#skils ul{
+    text-align: center;
+}
+#skils ul li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+}
+
+/*.................................................
+.................( servis)..................................
+...................................................
+.....................................................*/
+
+#servis{
+    
+    background-image: url(img/02.jpg);
+    background-attachment: fixed;
+    margin-top: 3px;
+    padding:20px;
+}
+#servis h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#servis .mein{
+    margin-left: 35%;
+    height: 350px;
+}
+#servis .mein .sebox{
+    float:left;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-left:20px ;
+    height: 300px;
+
+}
+.sebox ul li{
+    list-style: none;
+    text-align: center;
+
+}
+
+/*.................................................
+.................( contak)..................................
+...................................................
+.....................................................*/
+
+#contak{
+    background-color: rgba(241, 239, 239, 0.622);
+    text-align: center;
+    padding: 30px;
+}
+#contak h1{
+    font-family:'Josefin Sans', sans-serif;
+    padding: 4px 5px;
+    border-bottom: 1px solid black;
+}
+#contak p{
+    font-family:'Josefin Sans', sans-serif;
+    line-height: 25px;
+    font-size: large;
+}
+/*.................................................
+.................( welcome)..................................
+...................................................
+.....................................................*/
+
+
+
+#wellcome p{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
+}
+#wellcome h5{
+    text-align: center;
+    
+}
+
+
+/*...............................................
+..........................................
+..............................................
+................(@mediya qvery)...................*/
+
+@media screen and (max-width: 900px){
+    .dropbtn{display: none;}
+    nav p{ font-size: 26px; }
+    /*.................................................
+    .................(navi bar)..................................
+    ...................................................
+    .....................................................*/
+    .navibar ul li{ margin: 20px 9px; }
+
+    .navibar ul li a{ padding: 5px 9px; }
+
+    /*.................................................
+    .................( abut me)..................................
+    ...................................................
+    .....................................................*/
+    
+    
+    #abut{
+    height:300px;
+    background-size:50% auto ;
+}
+    #abut p{
+        width: 40%;
+        line-height: 20px;
+        margin-left: 40px;
+    }
+    #abut a{ padding: 5px 10px; }
+
+    /*.................................................
+    .................( skils)..................................
+    ...................................................
+    .....................................................*/
+    
+    #skils{
+    padding: 20px 50px;
+    }
+    #skils ul li{
+        font-size: 17px;
+        padding: 2px;
+    }
+    
+    /*.................................................
+    .................( servis)..................................
+    ...................................................
+    .....................................................*/
+    
+    #servis{ padding:18px; }
+     #servis .mein{
+        margin-left: 15%;
+        height: 350px;
+    }
+    #servis .mein .sebox{
+        padding: 9px;
+        margin-left:10px ;
+        height: 300px;
+    }
+    /*.................................................
+    .................( contak)..................................
+    ...................................................
+    .....................................................*/
+    #contak{ padding: 25px;}
+    #contak p{ line-height: 25px; }
+    /*.................................................
+    .................( welcome)..................................
+    ...................................................
+    .....................................................*/
+     #wellcome p{
+        font-size: 26px;
+        letter-spacing: 3px;
+      }
+}
+
+
+@media screen and (max-width: 630px){
+    .dropbtn{display: block;}
+    .navibar{ display: none;}
+   
+    /*.................................................
+    .................( abut me)..................................
+    ...................................................
+    .....................................................*/
+    #abut{
+        height:300px;
+        background-size:50% auto ;
+        background-position:right center;
+        padding-top: 5px;
+    } 
+
+    #abut p{
+            width: 40%;
+            line-height:20px;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+        #abut a{ padding: 5px 10px; }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 420px){
+        nav p{ font-size: 20px; }
+    
+        /*.................................................
+        .................( abut me)..................................
+        ...................................................
+        .....................................................*/
+        
+        
+        #abut{
+        height:300px;
+        background-size:90% auto ;
+    }
+        #abut p{
+            color: rgb(0, 0, 0);
+            background-color: rgba(240, 248, 255, 0.704);
+            font-size: 15px;
+            width: 70%;
+            line-height: 20px;
+            margin-left: 40px;
+            padding: 3px;
+        }
+        #abut a{ padding: 3px 5px; }
+    
+        /*.................................................
+        .................( skils)..................................
+        ...................................................
+        .....................................................*/
+        
+        #skils{
+        padding: 20px 50px;
+        }
+        #skils ul li{
+            font-size: 15px;
+            padding: 2px;
+        }
+        
+        /*.................................................
+        .................( servis)..................................
+        ...................................................
+        .....................................................*/
+        
+        #servis{display: none; }
+
+        /*.................................................
+        .................( contak)..................................
+        ...................................................
+        .....................................................*/
+        #contak{ padding: 25px;}
+        #contak p{ line-height: 25px; }
+        /*.................................................
+        .................( welcome)..................................
+        ...................................................
+        .....................................................*/
+         #wellcome p{
+            font-size: 20px;
+            letter-spacing: 3px;
+          }
+    }
